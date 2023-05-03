@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Mi Primera Web</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <!--Formularios-->
+    <form action="/formulario" method="post">
+        <label for="Nombre">Nombre:</label>
+        <input value="Chanchito" type="text" id="Nombre" name="Nombre" placeholder="Agregar Nombre"/>
+        <br><br>
+        <label for="Apellido">Apellido:</label>
+        <input value="Feliz" type="text" id="Apellido" name="Apellido" placeholder="Agregar Apellido"/>
+        <br><br>
+        <label for="Comentario">Comentario:</label><br>
+        <textarea cols="50" rows="10" id="Comentario" name="Comentario" placeholder="Agregar Comentarios">Este es un valor predeterminado</textarea>
+        <br><br>
+        <label for="password">Clave:</label>
+        <input type="password" id="password" password="Clave" placeholder="max 8 digitos"/><br><br>
+        <input type="submit"/>
+    <hr>
+    <button type="reset">Resetear</button> 
+    <!--<button type="button"><img src="img/mario-1998595_640.webp"></button>-->
+    <button type="button">Boton</button>
+    </hr><hr>
+
+    <!--<table style="border: 1px solid black;">-->
+        <table style="width: 500px;">
+        <thead>
+
+        <tr>
+            <th>Producto</th>
+            <th>Precio</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Disco Duro</td>
+            <td>41.55</td>
+        </tr>
+
+        <tr>
+            <td>Disco SSD</td>
+            <td>29.9</td>
+        </tr>
+
+        <tr>
+            <td>CPU AMD</td>
+            <td>98.99</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <td></td>
+        <td>Total: 173.44$</td>
+    </tfoot>
+    </table>
+
+    <hr>
+    <!--UL es lista no ordenada-->
+    <ul>
+        <li>Elemento1</li>
+        <li>Elemento2</li>
+        <li>Elemento3</li>
+        <li>Elemento4</li>
+    </ul>
+
+    <!--OL es Lista ordenada-->
+
+    <ol>
+        <li value="50">Elemento1</li>
+        <li>Elemento2</li>
+        <li>Elemento3</li>
+        <li>Elemento4</li>
+        <li>
+            <ol>
+                <li style="list-style-type: lower-roman;">sub Elemento1</li>
+                <li style="list-style-type: lower-roman;">sub Elemento2</li>
+                <li style="list-style-type: lower-roman;">sub Elemento3</li>
+                <li style="list-style-type: lower-roman;">sub Elemento4</li>
+            </ol>
+    </ol>
+
+    </form>
+
+    <h1>Mi Primer Heading</h1>
+    <h2>Mi Segundo Heading</h2>
+    <h3>Mi Tercer Heading</h3>
+    <h4>Mi Cuarto Heading</h4>
+    <h5>Mi Quinto Heading</h5>
+    <h6>Chanchito feliz</h6>
+    <hr>
+    <h2>Chanchito Felipe</h2>
+    <p>
+        Este texto es <span style="color:blue">mucho mas largo</span> y es para mostrar<br>
+        la etiqueta de span!
+    </p>
+    <p>Chanchito <strong>feliz</strong> esta muy feliz</p>
+    <p>Chanchito Triste esta muy triste</p>
+    <p>Texto un poco mas</p>
+    <!--Comentario del programador-->
+    <!--Atencion esto no aparecera
+    en el explorador-->
+    <a target="_blank" href="https://www.google.com.ve">Ir a Google</a>
+    <!--<img src="https://www.rutaalaimaegn.com/img.png" podemos llamar una imagen de esta ruta/-->
+    <img src="img/mario-1998595_640.webp" height="450"/>
+       
+</body>
+</html>
